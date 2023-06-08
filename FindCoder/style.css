@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family:Poppins,sans-serif;
+    box-sizing: border-box;
+}
+#nav{
+    align-items: center;
+    background-color:white;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+.color{
+    color: dodgerblue;
+}
+.navdiv{
+    /* background-color: blueviolet; */
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    width:95%;
+}
+.navindiv{
+    /* background-color: rgb(226, 84, 18); */
+    align-items: center;
+    display: flex;
+    height: 70px;
+    justify-content: space-around;
+    width:40%;
+}
+.butdiv{
+    background-color:dodgerblue ;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    height: 32px;
+    width: 9%;
+}
+select{   
+    border: transparent;
+    color: gray;
+    font-size: 17px;
+    width: 22%;
+}
+#sec1{
+  background-color:ghostwhite;
+  align-items: center;
+  display: flex;
+  height: 600px;
+  justify-content: space-around ;
+  width: 100%;
+}
+.sec1div1,.sec1div11,.sec1div12{
+    /* background-color:blueviolet ; */
+    height: 270px;
+    width: 50%;  
+}
+.sec1div11>h1{
+    font-size: 3rem;   
+}
+.sec1div11>p
+{
+    color:black;
+    font-size: 22px;
+    line-height:1.5;
+    margin-top: 3%;
+    opacity: 80%;
+    word-spacing: 7px;
+}
+h3{
+    font-size: 2.3rem;
+}
+.sec1div12
+{
+    /* background-color: thistle; */
+    line-height:1.5;
+}
+p{ 
+    color:grey;
+    margin:5% 0 4% 0;
+}
+h2{
+    font-size: 30px;
+}
+.sec1div2{
+/* background-color: coral; */
+align-items: center;
+display: flex;
+height: 600px;
+width: 40%;
+}
+.sec1div2>img{
+    height: 100%;
+    width: 100%;
+}
+#sec2{
+    background-color:ghostwhite;
+    align-items: center;
+    display: flex;
+    height: 55px;
+    margin-left: 3%;
+    width: 100%;
+}
+#sec2>img{
+    width:40px;
+}
+#sec3{
+  align-items: center;
+  background-color:ghostwhite;
+  display: flex;
+  height: 600px;
+  justify-content: space-evenly ;
+  width: 100%;
+}
+.sec3div{
+    /* background-color: brown; */
+    border: 1px solid grey;
+    height: 400px;
+    width:30%;
+}
+.sec3div1{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    height: 80px;   
+}
+.sec3div1>div{
+    align-items: center;
+    display: flex;  
+}
+.sec3div1>div>img{
+    border:none;
+    border-radius: 70px;
+    height: 50px;
+    width:50px;
+}
+.sec3div2{
+    /* background-color:blueviolet; */
+    height: 210px;
+}
+.sec3div2>img{
+    height: 100%;
+    width:100%;
+}
+.sec3div3{
+    /* background-color: black; */
+    align-items: center;
+    display: flex;
+    height:50px ;
+}
+.sec3div3>.div1>img,.sec3div3>.div2>img{
+    width:7%;
+}
+.div1{
+    /* background-color: aqua; */
+    display: flex; 
+    justify-content: space-around;
+    width:50%;
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+}
+.sec3div4{
+    /* background-color: aquamarine; */
+    align-items: center;
+    display: flex;
+    height:52px ; 
+}
+.sec3div4>div>button{
+    height: 23px;
+    margin-left: 10px;
+    width:80px;
+}
+#footer{
+    /* background-color: aquamarine; */
+    align-items: center;
+    display:block;
+    height:300px;
+}
+.footmaindiv1,.footmaindiv2
+{
+    /* background-color: tomato; */
+    align-items: center;
+    display: flex;
+    justify-content:space-around ;
+    height: 120px;
+}
+.footmaindiv2
+{   
+    height: 40px;
+}
+.footdiv1{
+    /* background-color: teal; */
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly ;
+    height:100px;
+    width: 80%;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+.footmaindiv3{
+   /* background-color: antiquewhite; */
+   align-items: center;
+   display: flex;
+   justify-content:space-around ;
+   height:30px;
+}
+.footdiv2{
+    /* background-color:red; */
+    align-items: center;
+    display: flex;
+    height:50px;
+    justify-content:space-around ;
+    width: 20%;
+}
+.social{
+    color: gray;
+    opacity: 40%;
+    width: 30%;
+}
+hr{
+    opacity: 60%;
+}
