@@ -1,0 +1,272 @@
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+#nav
+{
+    height: 624.5px;
+    width: 100%;
+    display: block;
+    justify-content:space-around;
+    background-image:url('./images/photo-1501520158826-76df880863a3.avif');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: center;
+}
+
+.navd1
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 25px;
+    color: white;
+}
+
+.navd2
+{
+    height: 10px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 10%;
+}
+
+.logo
+{
+    width:4%;
+}
+
+input
+{
+    font-size: 30px;
+    width: 20%;
+    height:50px;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+button
+{
+    width:8%;
+    height:45px;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color:transparent;
+}
+.but1:hover{
+    background-color: red;
+}
+
+.but2
+{
+    background-color: red;
+    border:2px solid red;
+}
+.but2:hover{
+    background-color:black;
+}
+
+select
+{
+    color:white;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.navd3
+{
+    width:30%;
+    height:200px;
+    margin: 150px;  
+}
+
+.navd3>p
+{
+    font-size: 50px;
+    color: white;
+    font-weight:900;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#recent
+{
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.indiv1
+{
+    height: 70px;
+    width:50%;
+}
+
+.indiv2
+{
+    height: 200px;
+}
+
+.indiv21
+{
+    height: 100px;
+}
+
+.indiv22
+{
+    height: 100px;
+    display: block;
+    line-height: 25px;
+}
+
+.indiv21>a>img
+{
+    height: 100px;
+    width: 100%;
+}
+
+.indiv2>a>img
+{
+   width: 100%; 
+   height: 200px;
+}
+
+.indiv3
+{  
+     height: 40px;
+}
+
+.indiv3>img
+{
+    width:20px;
+    text-align: left;
+}
+
+#Category
+{
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.catdiv
+{
+    line-height: 40px;
+}
+
+img
+{
+    width: 13%;
+}
+
+.items1
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.items2
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.items1>.one
+{
+    height: 300px;
+    width: 25%;
+    display:block;
+    align-items: center;
+    justify-content:space-around; 
+    text-align: center;
+    border: 1px solid lightgrey;
+}
+
+.one
+{
+    height: 180px;
+    width: 20%;
+    display:flex;
+    align-items: center;
+    justify-content:space-around; 
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+.one>p
+{
+    font-size:20px;
+    line-height: 50px;
+}
+
+a
+{
+    text-decoration: none;   
+}
+
+.navd1>a
+{
+    color:white;
+    font-size: 18px;
+}
+
+footer
+{
+    background-color:whitesmoke;
+    height: 600px;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.fotdiv>div{
+    height: 500px;
+    width: 15%;
+    display: block;
+    align-items: center;
+    justify-content:space-around;
+    line-height: 34px;
+}
+
+.fotdiv
+{
+   height: 550px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+ul 
+{
+    list-style-type:none;
+}
+
+li>a,footer>p
+{
+    color:gray;
+}
