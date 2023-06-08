@@ -1,0 +1,176 @@
+*
+{
+    margin: 0;
+    padding:0%;
+}
+
+.para1
+{   padding-left: 3px;
+    background-color: rgb(129, 120, 33);
+    color: white;
+    word-spacing:2px ;
+}
+
+.image1
+{
+    width:110px;
+    height: 150px;
+}
+
+aside
+{
+   float:right;
+   margin-right: 90px;
+}
+
+#first
+{
+   display: inline-flex;
+    background-color: rgb(212, 199, 73);
+    width:100%;
+    height: 180px;
+}
+
+.firstdiv
+{
+    margin:1px 10px 4px 20px;
+}
+
+.firstdiv2
+{
+    margin:3% 2%;
+    width:40%;
+    font-size: 20px;
+    
+} 
+
+.firstdiv3
+{ 
+  font-size: 15px;
+  
+  width:20%;
+  margin-left:20%;
+  padding-top:5%;
+   
+}
+
+.image1
+{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#sec
+{
+    display: inline-flex;
+}
+
+.secdiv
+{
+    width:800px;
+    height:230px;
+    background-color:moccasin;
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 14%;
+    border:2px solid red;
+    border-radius: 2%;
+    display: inline-flex;
+}
+
+.div2
+{
+margin:2% 0% 0% 40% ;
+word-spacing: 10px;
+}
+
+.hrdiv2
+{
+    margin-top: 100px;
+}
+
+.secdiv2
+{
+    width:400px;
+    height:345px;
+    padding: 10px;
+    margin-left: 5%; 
+    text-align: center;  
+}
+
+#mid
+{
+    background-color: rgb(245, 245, 238);
+    display: inline-flex;
+    width: 100%;
+}
+
+.mid1
+{
+margin:2px;
+padding-left: 7px;
+}
+
+.mid2
+{    
+    color:rgb(56, 150, 56) ;
+    margin :1px 3px 0px 20%
+}
+.mid3
+{   
+    color:rgb(56, 150, 56) ;
+    margin :1px 3px 0px 30%
+}
+
+button
+{
+    width:70px;
+    height:70px;
+    background-color: rgb(39, 124, 39);
+    margin:3%;
+    border-style: none;
+    border-radius:5%;
+    text-align: center;
+    color:white;
+    font-size: 30px;  
+}
+button:hover{
+    background-color: red;
+}
+
+.but
+{
+    width:200px;
+    height: 200px;
+    border-radius: 110px;
+    font-size: 30px; 
+}
+
+.spec
+{
+    font-size: 26px;
+    padding:0%;
+}
+
+hr
+{
+    border-top: 2px solid red;
+}
+
+#last
+{
+    padding: 1px 3px;
+    color: rgb(39, 124, 39) ;
+}
+
+.final
+{
+    border: 1px solid red;
+}  
+
+
+footer
+{
+    color: white;
+    background-color: darkgoldenrod;
+}
