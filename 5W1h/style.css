@@ -1,0 +1,321 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+#nav{
+    align-content: center;
+    background-color: black;
+    display: flex;
+    height: 145px;
+    justify-content: center;
+    width:100%;
+    /* position: */
+}
+
+.navdiv1{
+    align-content: center;
+    /* background-color: aquamarine; */
+    display: flex;
+    height: 80px;
+    justify-content: left;
+    width:80%;
+}
+.navdiv11{
+    align-items: center;
+    background-color: white;
+    display: block;
+    justify-content: center;
+    height: 120px;
+}
+.navdiv11>h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.navdiv11>h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.navdiv2{
+width: 50%;
+}
+.navdiv3{
+    align-items: center;
+    /* background-color:tomato; */
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.navdiv3>a{
+    color:white;
+}
+#sec1{
+    background-color: black;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    width:100%;
+}
+.sec1div
+{
+    display: flex;
+    justify-content: space-around;
+    width:75%;
+
+}
+.sec1div1{
+    /* background-color: aqua; */
+    display: flex;
+    height: 600px;
+    justify-content: space-around;
+    width:60%;
+}
+.sec1div2
+{
+    /* background-color: brown; */
+    width:40%;
+}
+#sec1>.sec1div>.sec1div1>div>h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    line-height: 1;
+}
+#sec1>.sec1div>.sec1div1>div>p{
+    color: white;
+    font-size:30px;
+    line-height: 1.4;
+}
+#recent-work{
+    /* background-color: white; */
+    height: 600px;
+
+}
+.container-1{
+    /* background-color: aqua; */
+    align-items: center;
+    display: flex;
+    font-size:30px ;
+    height:30%;
+    justify-content: space-around;
+}
+.container-2{
+    /* background-color: aquamarine; */
+    align-items: center;
+    display: flex;
+    height:70%;
+    justify-content: space-around;
+}
+.sub{
+    border: 1px solid black;
+    height: 250px;
+    width:30%;
+}
+.sub>img{
+    height:100%;
+    width:100% ;
+}
+#serve{
+    /* background-color: blueviolet; */
+    align-items: center;
+    display: flex;
+    height: 330px;
+    justify-content: center;
+}
+.serve-cont{
+    /* background-color: brown; */
+    height:50%;
+    width:30%;
+}
+.serve-cont>h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    word-spacing: 2px;
+}
+.serve-cont>p{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    
+}
+#scroll{
+    align-items: center;
+    display: flex;
+    /* background-color: aquamarine; */
+    height: 470px;
+    justify-content: space-around;
+    width:100%;
+}
+.scrolldiv{
+    align-items: center;
+    display: flex;
+    height:470px;
+    justify-content: space-between;
+    width:80%;
+    /* background-color: chartreuse; */
+}
+.container{
+    background-color:lightgrey;
+    border-radius: 20px;
+    border:none;
+    opacity:60%;
+    height: 30%;
+    line-height: 2.5;
+    text-align: center;
+    transition: height ;
+    width:21%;
+
+}
+.container:hover{
+    height: 100%;
+    opacity:100;
+}
+.container:hover>p{
+    opacity:100;
+}
+.container>h3{
+    color:red;
+}
+.container>p{
+    color:grey;
+    opacity: 0;
+}
+.container>img{
+    opacity: 0;
+    width:55%;
+}
+.container:hover>img{
+    opacity: 100;
+}
+#client{
+    /* background-color: aqua; */
+    align-items: center;
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+    justify-content: center;
+    height: 100px;
+    /* background-color: aqua; */
+}
+.company{
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    height: 650px;
+    width:100%;
+    /* background-color: blueviolet; */
+}
+.main{
+    align-items: center; 
+    display:block;
+    /* background-color: blue; */
+    height: 600px;
+    justify-content: space-around;
+    width:70%;
+}
+.line{
+    align-items: center;
+    display:flex;
+    height:25%;
+    justify-content: space-between;
+    width:100%;
+
+}
+.line>img{
+    height: 80px;
+    width: 120px;
+}
+#footer{
+    background-color: black;
+    border: 1px solid black;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+}
+.fcontain{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    margin-top: 70px;
+    /* background-color:aqua; */
+    width:80%;
+
+}
+.fcontainer1
+{
+    width: 39%;
+    
+/* background-color: blue; */
+}
+.flogo{
+    /* background-color: blanchedalmond; */
+    align-items: center;
+    background-color: white;
+    display: block;
+    height: 150px;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+   
+    
+}
+.flogo>h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 37px;
+}
+.flogo>h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.fcontainer1>div>h1{
+    font-size: 40px;
+    color: white;
+}
+.fcontainer1>div>p{
+    color: white;
+    font-size: 15px;
+}
+.fcontainer2{
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    width: 27%;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.fcontainer2>a:hover{
+    color: red;
+    
+}
+.fcontainer3
+{    width: 33%;
+    /* background-color: brown; */
+   
+}
+.footdiv2{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+.footdiv2>a{
+    width:25px;
+    
+}
+.footdiv2>a>img{
+    background-color:white
+    
+}
+
+body{
+   
+}
